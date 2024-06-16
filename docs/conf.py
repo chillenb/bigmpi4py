@@ -2,10 +2,10 @@ from __future__ import annotations
 
 import importlib.metadata
 
-project = "bigmpi4py"
+project = "mpix4py"
 copyright = "2024, Christopher Hillenbrand"
 author = "Christopher Hillenbrand"
-version = release = importlib.metadata.version("bigmpi4py")
+version = release = importlib.metadata.version("mpix4py")
 
 extensions = [
     "myst_parser",

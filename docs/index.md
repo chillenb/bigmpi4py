@@ -1,4 +1,4 @@
-# bigmpi4py
+# mpix4py
 
 ```{toctree}
 :maxdepth: 2

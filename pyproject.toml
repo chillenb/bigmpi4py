@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 
 [project]
-name = "bigmpi4py"
+name = "mpix4py"
 authors = [
   { name = "Christopher Hillenbrand", email = "chillenbrand15@gmail.com" },
 ]
@@ -50,14 +50,14 @@ docs = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/chillenb/bigmpi4py"
-"Bug Tracker" = "https://github.com/chillenb/bigmpi4py/issues"
-Discussions = "https://github.com/chillenb/bigmpi4py/discussions"
-Changelog = "https://github.com/chillenb/bigmpi4py/releases"
+Homepage = "https://github.com/chillenb/mpix4py"
+"Bug Tracker" = "https://github.com/chillenb/mpix4py/issues"
+Discussions = "https://github.com/chillenb/mpix4py/discussions"
+Changelog = "https://github.com/chillenb/mpix4py/releases"
 
 
 [tool.hatch]
-version.path = "src/bigmpi4py/__init__.py"
+version.path = "src/mpix4py/__init__.py"
 
 [tool.hatch.envs.default]
 features = ["test"]
@@ -78,7 +78,7 @@ testpaths = [
 
 
 [tool.coverage]
-run.source = ["bigmpi4py"]
+run.source = ["mpix4py"]
 report.exclude_also = [
   '\.\.\.',
   'if typing.TYPE_CHECKING:',
@@ -117,7 +117,7 @@ ignore = [
   "ISC001",   # Conflicts with formatter
 ]
 # Uncomment if using a _compat.typing backport
-# typing-modules = ["bigmpi4py._compat.typing"]
+# typing-modules = ["mpix4py._compat.typing"]
 
 [tool.ruff.lint.per-file-ignores]
 "tests/**" = ["T20"]

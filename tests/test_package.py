@@ -2,8 +2,8 @@ from __future__ import annotations
 
 import importlib.metadata
 
-import bigmpi4py as m
+import mpix4py as m
 
 
 def test_version():
-    assert importlib.metadata.version("bigmpi4py") == m.__version__
+    assert importlib.metadata.version("mpix4py") == m.__version__

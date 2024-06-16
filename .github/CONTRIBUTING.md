@@ -71,7 +71,7 @@ pytest
 Use pytest-cov to generate coverage reports:
 
 ```bash
-pytest --cov=bigmpi4py
+pytest --cov=mpix4py
 ```
 
 # Building docs
